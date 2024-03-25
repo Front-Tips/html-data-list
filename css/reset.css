@@ -61,8 +61,12 @@ input[type="text"]::placeholder {
 }
 
 input:focus {
-  border: 1px solid yellow;
   outline: 0;
+}
+
+input:focus,
+input:hover {
+  border: 1px solid yellow;
 }
 
 #fruits {
