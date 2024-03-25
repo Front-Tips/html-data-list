@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/tutorial.css" />
+    <title>HTML Data List</title>
+  </head>
+  <body>
+    <form id="fruits">
+      <label for="fruit-input"> Favorite Fruit? </label>
+
+      <input
+        type="text"
+        id="fruit-input"
+        list="fruit-list"
+        placeholder="e.g. Mango"
+      />
+
+      <datalist id="fruit-list">
+        <option value="🍎 Apple"></option>
+        <option value="🍌 Banana"></option>
+        <option value="🍒 Cherry"></option>
+        <option value="🍇 Grape"></option>
+        <option value="🥝 Kiwi"></option>
+        <option value="🍋 Lemon"></option>
+        <option value="🥭 Mango"></option>
+        <option value="🍊 Orange"></option>
+        <option value="🍍 Pineapple"></option>
+        <option value="🍓 Strawberry"></option>
+        <option value="🍉 Watermelon"></option>
+      </datalist>
+    </form>
+  </body>
+</html>

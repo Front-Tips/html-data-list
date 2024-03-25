@@ -1,0 +1,71 @@
+:root {
+  --background-color: #181824;
+  --text-color: #000;
+
+  --scrollbar-thumb-color: #fff;
+  --scrollbar-track-color: #0d0d18;
+  --scrollbar-width: 15px;
+
+  --primary: #ef12f3;
+  --primary-dark: #aa00ad;
+  --secondary: #0089c8;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+  color: var(--text-color);
+  font-weight: bold;
+  background-color: var(--background-color);
+  background-size: 20px 20px;
+}
+
+p {
+  cursor: default;
+}
+
+label {
+  display: block;
+  margin-bottom: 1rem;
+  color: #fff;
+  font-size: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+input[type="text"] {
+  width: 100%;
+  height: fit-content;
+  padding: 15px;
+  color: #fff;
+  font-size: 3rem;
+  background-color: #11111d;
+  border: 1px solid #3b3b58;
+  border-radius: 10px;
+  cursor: default;
+}
+
+input[type="text"]::placeholder {
+  color: #2f2f47;
+}
+
+input:focus {
+  border: 1px solid yellow;
+  outline: 0;
+}
+
+#fruits {
+  max-width: 500px;
+  padding: 20px;
+}
